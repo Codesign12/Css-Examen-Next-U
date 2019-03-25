@@ -22,6 +22,7 @@ header{
 	background: #5b7989;
 	border-radius: 10px 10px 0px 0px;
 	overflow: hidden;
+	animation: slidein 1s;
 }
 
 header h1{
@@ -246,3 +247,17 @@ section.galeria div img.efecto3{
 		padding: auto;
 	}
 } 
+
+/*Animación*/
+
+@-webkit-keyframes slidein{
+	0%{
+		margin-top: 150%;
+	}
+	60%{
+		margin-top: -5%;
+	}
+	100%{
+		margin-top: 0%;
+	}
+}
